@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Prakash Kumar, an aspiring software developer learning C++, DSA, HTML, CSS, JavaScript and React.">
+  <title>Prakash Kumar | Software Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="background-animation" aria-hidden="true">
+    <span class="circle circle-1"></span>
+    <span class="circle circle-2"></span>
+    <span class="circle circle-3"></span>
+    <span class="circle circle-4"></span>
+  </div>
+
+  <header class="header">
+    <a href="#home" class="brand">
+      <img src="images/logo.png" alt="ItsPrakashdev52 logo" class="nav-logo">
+      <span>ItsPrakashdev52</span>
+    </a>
+
+    <button class="menu-button" id="menuButton" type="button" aria-label="Open navigation menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1>Prakash <span>Kumar</span></h1>
+        <h2>Aspiring Software Developer</h2>
+
+        <div class="typing-wrapper">
+          <span>I am a </span><span id="typingText"></span>
+        </div>
+
+        <p class="hero-description">
+          B.Tech Computer Science Engineering student passionate about
+          problem-solving, web development and building useful real-world projects.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="button primary-button">
+            <i class="fa-solid fa-code"></i> View Projects
+          </a>
+
+          <a href="assets/Prakash_Kumar_Resume.pdf" class="button secondary-button" download>
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/itsprakashdev52" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/itsprakashdev52" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://leetcode.com/u/ItsPrakash-DevCSE/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
+            <i class="fa-solid fa-code"></i>
+          </a>
+          <a href="https://www.hackerrank.com/profile/itsprakashdev52" target="_blank" rel="noopener noreferrer" aria-label="HackerRank">
+            <i class="fa-brands fa-hackerrank"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-box">
+        <div class="logo-glow"></div>
+        <img src="images/logo.png" alt="ItsPrakashdev52 logo" class="hero-logo">
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading">
+        <p>Get to know me</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-container">
+        <article class="about-card">
+          <h3><i class="fa-solid fa-user"></i> Who I Am</h3>
+          <p>
+            I am Prakash Kumar, a B.Tech Computer Science and Engineering student
+            at Millennium Institute of Technology & Science, Bhopal.
+          </p>
+          <p>I enjoy learning programming, solving coding problems and creating responsive web projects.</p>
+        </article>
+
+        <article class="about-card">
+          <h3><i class="fa-solid fa-bullseye"></i> My Goal</h3>
+          <p>
+            My goal is to secure a Software Developer Internship, gain practical
+            industry experience and grow as a successful software developer.
+          </p>
+        </article>
+
+        <article class="about-card">
+          <h3><i class="fa-solid fa-laptop-code"></i> Currently Learning</h3>
+          <p>C++, Data Structures & Algorithms, JavaScript, React, Git and modern web development.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-heading">
+        <p>My technical knowledge</p>
+        <h2>Technical <span>Skills</span></h2>
+      </div>
+
+      <div class="skills-container">
+        <article class="skill-card">
+          <i class="fa-solid fa-code skill-main-icon"></i>
+          <h3>Programming</h3>
+          <div class="skill-list">
+            <span>C++</span><span>JavaScript</span><span>DSA</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <i class="fa-solid fa-window-maximize skill-main-icon"></i>
+          <h3>Frontend</h3>
+          <div class="skill-list">
+            <span>HTML5</span><span>CSS3</span><span>React</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <i class="fa-solid fa-screwdriver-wrench skill-main-icon"></i>
+          <h3>Tools</h3>
+          <div class="skill-list">
+            <span>GitHub</span><span>VS Code</span><span>Git Learning</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading">
+        <p>Some of my work</p>
+        <h2>Featured <span>Projects</span></h2>
+      </div>
+
+      <div class="project-container">
+        <article class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-calculator"></i></div>
+          <h3>Calculator</h3>
+          
+          <p>A responsive calculator for performing basic arithmetic operations.</p>
+          <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="project-buttons">
+
+            <a href="#" class="small-button disabled-link" aria-disabled="true">Live Soon</a>
+            <a href="https://github.com/itsprakashdev52/calculator-project" target="_blank" rel="noopener noreferrer" class="small-button outline-button">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-clock"></i></div>
+          <h3>Digital Clock</h3>
+
+          <p>A live digital clock displaying time with a clean and responsive interface.</p>
+          <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="project-buttons">
+
+            <a href="#" class="small-button disabled-link" aria-disabled="true">Live Soon</a>
+            <a href="https://github.com/itsprakashdev52/Digital-clock" target="_blank" rel="noopener noreferrer" class="small-button outline-button">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-file-lines"></i></div>
+          <h3>HTML Form</h3>
+
+          <p>A structured and responsive HTML form with common input fields.</p>
+          <div class="project-tech"><span>HTML</span><span>CSS</span></div>
+          <div class="project-buttons">
+
+            <a href="#" class="small-button disabled-link" aria-disabled="true">Live Soon</a>
+            <a href="https://github.com/itsprakashdev52/HTML-Form" target="_blank" rel="noopener noreferrer" class="small-button outline-button">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-store"></i></div>
+          <h3>Sweet Shop Website</h3>
+          <p>A clean sweet-shop landing page with product sections and responsive design.</p>
+          <div class="project-tech"><span>HTML</span><span>CSS</span></div>
+          <div class="project-buttons">
+            <a href="#" class="small-button disabled-link" aria-disabled="true">Live Soon</a>
+            <a href="https://github.com/itsprakashdev52" target="_blank" rel="noopener noreferrer" class="small-button outline-button">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="education section" id="education">
+      <div class="section-heading">
+        <p>My academic background</p>
+        <h2>Education & <span>Certificates</span></h2>
+      </div>
+
+      <div class="education-container">
+        <article class="education-card">
+          <span class="education-year">2023 - 2027</span>
+          <h3>B.Tech in Computer Science & Engineering</h3>
+          <h4>Millennium Institute of Technology & Science, Bhopal</h4>
+          <p>RGPV University | Current CGPA: 7.25</p>
+        </article>
+
+        <article class="certificate-card">
+          <h3><i class="fa-solid fa-certificate"></i> Certifications</h3>
+          <ul>
+            <li>HTML & CSS Certificate</li>
+            <li>Full Stack MERN Certificate</li>
+            <li>Python Participation Certificate</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-heading">
+        <p>Let's work together</p>
+        <h2>Contact <span>Me</span></h2>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-information">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:itsprakashdev@gmail.com">itsprakashdev@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <a href="tel:+918603930335">+91 8603930335</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h3>Location</h3>
+              <p>West Champaran, Bihar, India</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="input-group"><input type="text" id="name" placeholder="Your Name" required></div>
+          <div class="input-group"><input type="email" id="email" placeholder="Your Email" required></div>
+          <div class="input-group"><input type="text" id="subject" placeholder="Subject" required></div>
+          <div class="input-group"><textarea id="message" rows="6" placeholder="Your Message" required></textarea></div>
+          <button type="submit" class="button primary-button">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="images/logo.png" alt="ItsPrakashdev52 logo" class="footer-logo">
+    <p>Designed and developed by <strong>Prakash Kumar</strong></p>
+    <p>Build • Code • Learn • Create</p>
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
