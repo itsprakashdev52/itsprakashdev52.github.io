@@ -159,6 +159,20 @@ img{display:block;max-width:100%}
   .project-container{grid-template-columns:repeat(2,1fr)}
 }
 
+
+.certificate-btn{
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 12px;
+  background-color: #00bcd4;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.certificate-btn:hover{
+  background-color: #0097a7;
+}
 @media(max-width:900px){
   .navbar{
     position:absolute;top:76px;right:6%;width:min(280px,88vw);padding:18px;
